@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3c8e77ec23b84d57ab543a5e92bb7c1, type: 3}
   m_Name: Neon-ViewsModule
   m_EditorClassIdentifier: 
+  properties:
+    instancesRegistryCapacity: 10
+    renderingObjectsCapacity: 100
+    viewsGameObjects: 1
+    viewsDrawMeshes: 1
+    interpolateState: 1

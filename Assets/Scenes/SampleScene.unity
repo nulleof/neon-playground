@@ -474,6 +474,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.utf8LengthInBytes
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0000
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0001
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0002
+      value: 111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0003
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0004
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0005
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0006
+      value: 111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0007
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0008
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571021872515679352, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
+      propertyPath: properties.name.bytes.offset0000.byte0009
+      value: 99
+      objectReference: {fileID: 0}
     - target: {fileID: 8845458512043674807, guid: aefe8a1b8531a4598acb3d46721018a6, type: 3}
       propertyPath: m_Name
       value: NeonInitializer

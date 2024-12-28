@@ -3,7 +3,9 @@
     "rootNamespace": "",
     "references": [
         "ME.BECS",
-        "ME.BECS.Features"
+        "ME.BECS.Features",
+        "Unity.Collections",
+        "ME.BECS.Transforms"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
