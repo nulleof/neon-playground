@@ -82,3 +82,7 @@ mono_crash.*
 
 # Build data
 .utmp
+
+# BECS
+/[Aa]ssets/ME.BECS.Gen
+/[Aa]ssets/ME.BECS.Gen.meta
