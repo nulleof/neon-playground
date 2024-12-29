@@ -4,8 +4,22 @@
     "references": [
         "ME.BECS",
         "ME.BECS.Features",
+        "ME.BECS.Network",
+        "ME.BECS.Views",
+        "ME.BECS.FogOfWar",
+        "ME.BECS.Trees",
+        "Unity.Mathematics",
         "Unity.Collections",
-        "ME.BECS.Transforms"
+        "ME.BECS.Players",
+        "ME.BECS.Transforms",
+        "ME.BECS.Pathfinding",
+        "ME.BECS.Units",
+        "ME.BECS.Attack",
+        "ME.BECS.Commands",
+        "ME.BECS.UnitsHealthBars",
+        "ME.BECS.Destroy",
+        "Unity.Burst",
+        "ME.BECS.Effects"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

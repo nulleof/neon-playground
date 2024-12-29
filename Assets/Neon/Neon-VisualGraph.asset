@@ -10,38 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c47971b42c2144aeb6f0fb81f786410, type: 3}
-  m_Name: Neon-GameStateGraph
+  m_Name: Neon-VisualGraph
   m_EditorClassIdentifier: 
-  id: 1002
+  id: 1003
   builtInGraph: 0
   isInnerGraph: 0
   serializedNodes: []
   nodes:
-  - rid: 1679439792393420891
-  - rid: 1679439792393420892
-  - rid: 1679439792393420900
-  - rid: 1679439792393420902
+  - rid: 1679439792393421099
+  - rid: 1679439792393421100
+  - rid: 1679439792393421102
+  - rid: 1679439806265033692
   edges:
-  - GUID: 3b33a559-b73f-49eb-9f65-1db448b6a3f8
+  - GUID: 683be302-9461-4628-aa83-3e7e407f1086
     owner: {fileID: 11400000}
-    inputNodeGUID: 4d63a170-0c4e-46db-84a0-ee403da7bb13
+    inputNodeGUID: EndNode
+    outputNodeGUID: af67e6ae-19dc-42b1-b41a-cc5b15b2f0bf
+    inputFieldName: inputNodes
+    outputFieldName: outputNodes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 197f3184-bded-4b0f-b6c1-00155b794a6d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 151c1d93-2d58-40da-95f4-5063dcd80bda
     outputNodeGUID: StartNode
     inputFieldName: inputNodes
     outputFieldName: output
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: e03f80a8-31c3-4fdd-8364-beca3950a210
+  - GUID: 4d03412b-de56-437b-a533-926acc2e53f7
     owner: {fileID: 11400000}
-    inputNodeGUID: f94f4486-fdc6-42ff-9fd1-0083bcf9f496
-    outputNodeGUID: 4d63a170-0c4e-46db-84a0-ee403da7bb13
-    inputFieldName: inputNodes
-    outputFieldName: outputNodes
-    inputPortIdentifier: 
-    outputPortIdentifier: 
-  - GUID: fb0bf42b-56b0-4134-8d8d-ef446c87aa50
-    owner: {fileID: 11400000}
-    inputNodeGUID: EndNode
-    outputNodeGUID: f94f4486-fdc6-42ff-9fd1-0083bcf9f496
+    inputNodeGUID: af67e6ae-19dc-42b1-b41a-cc5b15b2f0bf
+    outputNodeGUID: 151c1d93-2d58-40da-95f4-5063dcd80bda
     inputFieldName: inputNodes
     outputFieldName: outputNodes
     inputPortIdentifier: 
@@ -56,7 +56,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 1679439792393420891
+    - rid: 1679439792393421099
       type: {class: StartNode, ns: ME.BECS.FeaturesGraph.Nodes, asm: ME.BECS.Features}
       data:
         syncPoint: 0
@@ -67,17 +67,17 @@ MonoBehaviour:
         computeOrder: 0
         position:
           serializedVersion: 2
-          x: 0
-          y: 0
+          x: -92.91997
+          y: 94
           width: 100
-          height: 100
+          height: 79.5
         expanded: 1
         enabled: 1
         debug: 0
         nodeLock: 0
         customRuntimeSystemRoot: {fileID: 0}
         isInstance: 0
-    - rid: 1679439792393420892
+    - rid: 1679439792393421100
       type: {class: ExitNode, ns: ME.BECS.FeaturesGraph.Nodes, asm: ME.BECS.Features}
       data:
         syncPoint: 1
@@ -88,8 +88,8 @@ MonoBehaviour:
         computeOrder: 3
         position:
           serializedVersion: 2
-          x: 852
-          y: 11.320023
+          x: 1057
+          y: 94
           width: 100
           height: 79.5
         expanded: 1
@@ -98,57 +98,49 @@ MonoBehaviour:
         nodeLock: 0
         customRuntimeSystemRoot: {fileID: 0}
         isInstance: 0
-    - rid: 1679439792393420900
-      type: {class: SystemNode, ns: ME.BECS.FeaturesGraph.Nodes, asm: ME.BECS.Features}
+    - rid: 1679439792393421102
+      type: {class: GraphNode, ns: ME.BECS.FeaturesGraph.Nodes, asm: ME.BECS.Features}
       data:
         syncPoint: 1
         syncCount: 0
         nodeCustomName: 
-        GUID: 4d63a170-0c4e-46db-84a0-ee403da7bb13
-        groupGUID: 
-        computeOrder: 1
-        position:
-          serializedVersion: 2
-          x: 165
-          y: -8
-          width: 300
-          height: 99
-        expanded: 1
-        enabled: 1
-        debug: 0
-        nodeLock: 0
-        customRuntimeSystemRoot: {fileID: 0}
-        system:
-          rid: 1679439792393420901
-    - rid: 1679439792393420901
-      type: {class: GameInitializeSystem, ns: Neon.Systems, asm: Neon}
-      data: 
-    - rid: 1679439792393420902
-      type: {class: SystemNode, ns: ME.BECS.FeaturesGraph.Nodes, asm: ME.BECS.Features}
-      data:
-        syncPoint: 1
-        syncCount: 0
-        nodeCustomName: 
-        GUID: f94f4486-fdc6-42ff-9fd1-0083bcf9f496
+        GUID: af67e6ae-19dc-42b1-b41a-cc5b15b2f0bf
         groupGUID: 
         computeOrder: 2
         position:
           serializedVersion: 2
-          x: 519
-          y: 0
+          x: 573
+          y: 94
           width: 300
-          height: 99
+          height: 75
+        expanded: 0
+        enabled: 1
+        debug: 0
+        nodeLock: 0
+        customRuntimeSystemRoot: {fileID: 0}
+        graphValue: {fileID: 11400000, guid: c2aa5f0bbcb444e4e8fd45055d600fbd, type: 2}
+    - rid: 1679439806265033692
+      type: {class: SystemNode, ns: ME.BECS.FeaturesGraph.Nodes, asm: ME.BECS.Features}
+      data:
+        syncPoint: 1
+        syncCount: 0
+        nodeCustomName: 
+        GUID: 151c1d93-2d58-40da-95f4-5063dcd80bda
+        groupGUID: 
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 135
+          y: 232
+          width: 300
+          height: 103
         expanded: 1
         enabled: 1
         debug: 0
         nodeLock: 0
         customRuntimeSystemRoot: {fileID: 0}
         system:
-          rid: 1679439792393420903
-    - rid: 1679439792393420903
-      type: {class: MapInitializeSystem, ns: Neon.Systems, asm: Neon}
-      data:
-        ground:
-          id: 5
-        unit:
-          id: 217
+          rid: 1679439806265033693
+    - rid: 1679439806265033693
+      type: {class: CreateCameraAnchorsSystem, ns: Neon.FeaturesClient.Camera.Systems, asm: Neon}
+      data: 

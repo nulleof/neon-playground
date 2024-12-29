@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e9c3df6c94406bbe8e411da76ce60e, type: 3}
   m_Name: ObjectReferenceRegistry
   m_EditorClassIdentifier: 
-  sourceId: 12
+  sourceId: 217
   items:
   - source: {fileID: 2314529704768582300, guid: 6f06c9a0339664ed68fb692fd6be3f48, type: 3}
     sourceId: 12
     references: 1
   - source: {fileID: 11400000, guid: ee4b716da390c4166a75e76f297c70ed, type: 2}
     sourceId: 5
+    references: 1
+  - source: {fileID: 6382461306925051606, guid: f4cdeb2d56d9649b2bdf8d16b33063bb, type: 3}
+    sourceId: 203
+    references: 1
+  - source: {fileID: 11400000, guid: 967f07df2e944495f8fab9aa549ef801, type: 2}
+    sourceId: 11
+    references: 0
+  - source: {fileID: 11400000, guid: e278b90f7d1ae48019434cf9c3268f6c, type: 2}
+    sourceId: 217
     references: 1
